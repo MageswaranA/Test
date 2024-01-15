@@ -1,5 +1,4 @@
-#!/bin/sh ## IBM Demo script git clone v1.3 (nlopez)
-.$HOME/.profile
+#!/bin/bash ## IBM Demo script git clone v1.3 (nlopez)
 javac helloJava.java
 java helloJava
 echo "completed build"
