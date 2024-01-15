@@ -32,7 +32,7 @@ jobs:
 
       # Runs a set of commands using the runners shell
       - name: Run a multi-line script Compile
-        run: javac helloJava.java
+        run: C:\Program Files\Common Files\Oracle\Java\javapath\javac helloJava.java
 
       # Runs a set of commands using the runners shell
       - name: Run a multi-line script Run
