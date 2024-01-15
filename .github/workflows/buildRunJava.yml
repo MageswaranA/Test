@@ -35,6 +35,11 @@ jobs:
          #run: ${{ env.build.sh }}
         run: .github/workflows/build.sh
         #shell: bash
+      # Runs a set of commands using the runners shell
+      - name: Display the path
+        shell: pwsh
+        run: echo ${env:PATH}
+
               
         # Runs a set of commands using the runners shell
       - name: Run a multi-line script Run
