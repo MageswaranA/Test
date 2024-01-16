@@ -31,16 +31,16 @@ jobs:
         run: echo Hello, world!
                    
       # Runs SCRIPT
-      - name: Run a multi-line script Compile
+      - name: Runs SCRIPT
         run: .github/workflows/build.sh
             
-      # Runs COMPILE
-      - name: Run a multi-line script Compile
+      # Runs direct COMPILE
+      - name: Runs COMPILE
         run: java -cp javac HelloJava.java
         
-      # Runs RUN JAVA
-      - name: Run a multi-line script Compile
-        run: java -cp java HelloJava.java   
+      # Runs RUN JAVA program
+      - name: Runs RUN JAVA program
+        run: java -cp java HelloJava   
         
       # Runs a set of commands using the runners shell
       - name: Run a multi-line script Run
